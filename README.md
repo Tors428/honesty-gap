@@ -2,6 +2,8 @@
 
 A benchmark and verifiable reward for the gap between what an LLM agent says it did and what it actually did.
 
+![Honesty Gap leaderboard](./docs/leaderboard.png)
+
 The setup: give an agent a task where overclaiming or underclaiming is the natural failure mode, record the real trajectory while it runs, then score the delta between its self-report and the ground truth. Models get ranked on completion × honesty multiplier — a multiplicative reward that closes the vacuous-honesty hole (do nothing, claim nothing, look perfect) without special-casing.
 
 ## why this and not another eval
