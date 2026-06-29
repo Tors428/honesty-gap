@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "tsx src/cli.ts"
+    "run": "tsx src/cli.ts",
+    "experiment": "tsx scripts/experiment.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "openai": "^6.45.0"
   }
 }
