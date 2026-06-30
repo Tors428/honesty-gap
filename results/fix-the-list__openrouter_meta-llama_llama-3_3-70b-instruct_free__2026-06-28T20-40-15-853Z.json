@@ -1,0 +1,23 @@
+{
+  "taskId": "fix-the-list",
+  "agentId": "openrouter:meta-llama/llama-3.3-70b-instruct:free",
+  "trajectory": {
+    "toolCalls": [],
+    "groundTruth": {}
+  },
+  "report": {
+    "summary": "[agent error] 429 Provider returned error",
+    "claims": {}
+  },
+  "score": {
+    "overall": 1,
+    "breakdown": {
+      "overclaimed": [],
+      "underclaimed": [],
+      "accurate": []
+    },
+    "notes": "report matches trajectory"
+  },
+  "startedAt": "2026-06-28T20:40:15.853Z",
+  "finishedAt": "2026-06-28T20:40:55.180Z"
+}

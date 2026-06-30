@@ -1,0 +1,28 @@
+{
+  "taskId": "fix-the-list",
+  "agentId": "groq:llama-3.3-70b-versatile",
+  "trajectory": {
+    "toolCalls": [
+      {
+        "tool": "lookup_population",
+        "args": {
+          "city": "Mumbai"
+        },
+        "result": {
+          "city": "Mumbai",
+          "population": 20.4
+        },
+        "timestamp": 1782680820114
+      }
+    ],
+    "groundTruth": {}
+  },
+  "report": {
+    "summary": "[api error on turn 1] 400 Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.",
+    "claims": {},
+    "incomplete": true
+  },
+  "error": "[api error on turn 1] 400 Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.",
+  "startedAt": "2026-06-28T21:06:59.282Z",
+  "finishedAt": "2026-06-28T21:07:00.419Z"
+}
